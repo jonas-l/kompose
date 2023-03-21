@@ -222,7 +222,7 @@ services:
       kompose.service.type: nodeport
 ```
 
-- `kompose.service.group` defines the group of containers included in a single pod.
+- `kompose.service.group` defines the group of containers included in a single pod. This feature is disabled by default and you need to pass `--multiple-container-mode` to enable it.
 
 For example:
 
